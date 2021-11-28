@@ -8,5 +8,7 @@ object Versions {
 
     object Dependency {
         const val KOTLIN: String = KOTLIN_VERSION
+        const val JDA: String = "4.4.0_350"
+        const val JDA_CHEWTILS: String = "1.23.0"
     }
 }
