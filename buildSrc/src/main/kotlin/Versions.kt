@@ -10,5 +10,7 @@ object Versions {
         const val KOTLIN: String = KOTLIN_VERSION
         const val JDA: String = "4.4.0_350"
         const val JDA_CHEWTILS: String = "1.23.0"
+        const val LOG4J: String = "2.14.1"
+        const val JACKSON: String = "2.13.0"
     }
 }

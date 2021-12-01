@@ -31,6 +31,9 @@ dependencies {
     testImplementation(kotlinTestJunit)
     implementation(jda)
     implementation(jdaChewtils)
+    implementation(log4jSlf4jImpl)
+    implementation(log4jCore)
+    implementation(jacksonDataformatYaml)
 }
 
 application {
