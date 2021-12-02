@@ -16,6 +16,8 @@ plugins {
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
+    maven("https://m2.dv8tion.net/releases")
+    maven("https://m2.chew.pro/releases")
 }
 
 dependencies {
@@ -27,6 +29,11 @@ dependencies {
     testImplementation(kotlinTest)
     // Use the Kotlin JUnit integration.
     testImplementation(kotlinTestJunit)
+    implementation(jda)
+    implementation(jdaChewtils)
+    implementation(log4jSlf4jImpl)
+    implementation(log4jCore)
+    implementation(jacksonDataformatYaml)
 }
 
 application {
