@@ -3,13 +3,17 @@
  */
 package com.solxana.discord.reminder
 
-class App {
-    val greeting: String
-        get() {
-            return "Hello World!"
-        }
-}
+import com.solxana.discord.reminder.bot.ReminderBOT
+import org.apache.logging.log4j.LogManager
+import org.apache.logging.log4j.Logger
+
+val logger: Logger = LogManager.getLogger()
 
 fun main() {
-    println(App().greeting)
+    try {
+        ReminderBOT()
+    }
+    catch (throwable: Throwable) {
+        logger.error("Throwing", throwable)
+    }
 }
