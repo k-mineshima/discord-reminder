@@ -9,3 +9,4 @@ const val log4jCore: String = "org.apache.logging.log4j:log4j-core:${Versions.De
 // ========== for log4j2.yaml ==========
 const val jacksonDataformatYaml: String = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:${Versions.Dependency.JACKSON}"
 // =====================================
+const val awsJavaSdkSsm: String = "com.amazonaws:aws-java-sdk-ssm:${Versions.Dependency.AWS_JAVA_SDK_SSM}"

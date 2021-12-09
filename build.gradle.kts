@@ -34,6 +34,7 @@ dependencies {
     implementation(log4jSlf4jImpl)
     implementation(log4jCore)
     implementation(jacksonDataformatYaml)
+    implementation(awsJavaSdkSsm)
 }
 
 application {

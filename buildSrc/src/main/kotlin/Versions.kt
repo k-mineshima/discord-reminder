@@ -12,5 +12,6 @@ object Versions {
         const val JDA_CHEWTILS: String = "1.23.0"
         const val LOG4J: String = "2.14.1"
         const val JACKSON: String = "2.13.0"
+        const val AWS_JAVA_SDK_SSM: String = "1.12.124"
     }
 }
